@@ -48,8 +48,8 @@ const useView = (url: string, container?: HTMLDivElement | string | null) => {
     }
   }, [view]);
   const off = useMemo(() => {
-    if (view?.on) {
-      return view.on;
+    if (view?.off) {
+      return view.off;
     }
   }, [view]);
 
