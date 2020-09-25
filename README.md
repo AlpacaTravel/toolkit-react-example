@@ -6,6 +6,10 @@ Add the toolkit (and encoding dependency) to your project
 yarn add @alpaca-travel/toolkit encoding
 ```
 
+## Online Demo
+
+[![Edit Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/alpaca-toolkit-react-basic-1jxor-1jxor?file=/src/use-view.tsx)
+
 ## Hook Example
 
 The following is an example of a basic React hook that illustrates integration into your react application.
