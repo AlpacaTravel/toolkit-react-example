@@ -1,5 +1,7 @@
 # Toolkit integration example with React
 
+Example of binding the toolkit into a react application.
+
 Add the toolkit (and encoding dependency) to your project
 
 ```
