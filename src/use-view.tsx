@@ -1,16 +1,3 @@
-# Toolkit integration example with React
-
-Add the toolkit (and encoding dependency) to your project
-
-```
-yarn add @alpaca-travel/toolkit encoding
-```
-
-## Hook Example
-
-The following is an example of a basic React hook that illustrates integration into your react application.
-
-```
 import { useCallback, useState, useEffect, useMemo } from "react";
 import { View } from "@alpaca-travel/toolkit";
 
@@ -24,7 +11,6 @@ const useView = (url: string, container?: HTMLDivElement | string | null) => {
   useEffect(() => {
     if (url && container) {
       setView(() => {
-        // A view will interact with our asset
         return new View({
           url,
           container,
@@ -99,4 +85,3 @@ const useView = (url: string, container?: HTMLDivElement | string | null) => {
 };
 
 export default useView;
-```
